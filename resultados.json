@@ -1,5 +1,25 @@
 [
   {
+    "nombreVacante": "Acompañante de menor o Maestro Sombra",
+    "empresa": "",
+    "ubicacion": "Hermosillo,, Son.",
+    "sueldo": "$12,000 Mensual",
+    "verificada": true,
+    "sobreElEmpleo": {
+      "Categoría": "Educación",
+      "Subcategoría": "Educación especial",
+      "Educación mínima requerida": "Universitario titulado",
+      "Categoria": "Educación",
+      "Subcategoria": "Educación especial"
+    },
+    "detalles": {
+      "Contratación": "Permanente",
+      "Horario": "Tiempo completo",
+      "Espacio de trabajo": "Presencial"
+    },
+    "descripcion": "Vacante: Acompañante de niño (TDA o Autismo) – Maestro Sombra\n\nUbicación: Zona Poniente, Hermosillo\n\nHorario: lunes a viernes\n\n\n\n\nRequisitos:\n\nSexo indistinto\n\nCarrera en Pedagogía, Ciencias de la Educación o afín\n\nEspecialidad o experiencia en Educación Especial\n\nExperiencia como maestro sombra o acompañante educativo\n\nPaciencia, empatía y habilidades de comunicación\n\nResponsabilidad y compromiso\n\nPreferente cuente con carro para su traslado\n\n\n\n\nFunciones principales:\n\nBrindar apoyo personalizado a un niño con TDA o Trastorno del Espectro Autista en su entorno escolar\n\nFavorecer la integración e inclusión en actividades académicas y sociales\n\nImplementar estrategias de apoyo de acuerdo con el plan educativo\n\nColaborar con docentes y padres para dar seguimiento al progreso\n\n\n\n\nOfrecemos:\n\nContratación directa\n\nEstabilidad laboral\n\nAmbiente de trabajo respetuoso y colaborativo"
+  },
+  {
     "nombreVacante": "Terapeuta",
     "empresa": "",
     "ubicacion": "León,, Gto.",
@@ -18,26 +38,6 @@
       "Espacio de trabajo": "Presencial"
     },
     "descripcion": "Requisitos del puesto\n\n\n\n\nEstudios universitarios con título en Terapia.\nExperiencia previa como Terapeuta de niños con Trastornos del espectro autista.\nGusto por realizar manualidades.\nHabilidad para nadar.\nLicencia de manejo vigente.\nConocimientos en técnicas de terapia y rehabilitación.\nLicencia o certificación válida en Terapia (deseable).\n\n\n\n\n\n\n\nResponsabilidades del puesto\n\n\n\n\nRealizar evaluaciones y diagnósticos de los pacientes.\nDiseñar planes de tratamiento personalizados.\nRealizar sesiones de terapia adaptadas a las necesidades individuales de cada paciente.\nMantener registros precisos de la evolución de los pacientes.\n\n\n\n\n\n\n\nPrestaciones y beneficios adicionales\n\n\n\n\nSalario mensual competitivo de 14000 a 16000.\nPrestaciones de ley.\nVales de despensa.\nFondo de ahorro.\nOportunidades de capacitación y desarrollo profesional en un ambiente de trabajo colaborativo y en constante crecimiento."
-  },
-  {
-    "nombreVacante": "Psicóloga",
-    "empresa": "Neuro Activa",
-    "ubicacion": "CDMX",
-    "sueldo": "$8,364 - $8,500 Mensual",
-    "verificada": false,
-    "sobreElEmpleo": {
-      "Categoría": "Educación",
-      "Subcategoría": "Psicopedagogía",
-      "Educación mínima requerida": "Universitario titulado",
-      "Categoria": "Educación",
-      "Subcategoria": "Psicopedagogía"
-    },
-    "detalles": {
-      "Contratación": "Permanente",
-      "Horario": "Tiempo completo",
-      "Espacio de trabajo": "Híbrido"
-    },
-    "descripcion": "Acerca de la empresa\n\n\n\n\nNeuro Activa es una empresa líder en el campo de la educación y la psicopedagogía, comprometida con el desarrollo integral de cada individuo. Trabajar con nosotros significa formar parte de un equipo dedicado a brindar soluciones innovadoras y personalizadas a las necesidades educativas especiales. - Ubicación: Ciudad de México.\n\n\n\n\nRequisitos del puesto\n\n\n\n\nLicenciatura en Psicología, Educación Especial, Pedagogía, Psicopedagogía o afines.\nDiplomado o curso en intervención educativa, inclusión escolar o TEA/TDAH. (Deseable)\nExperiencia mínima de 6 meses con niños con necesidades educativas especiales (NEE), Trastorno del Espectro Autista (TEA), TDAH u otras condiciones del neurodesarrollo.\nConocimientos básicos de adaptaciones curriculares y manejo de conductas.\nHabilidades en regulación emocional, contención y acompañamiento respetuoso.\nCapacidad para implementar estrategias sensoriales, estructuración del entorno y apoyos visuales.\nBuen manejo de la comunicación con familia y equipo docente.\n\n\n\n\n\n\n\nResponsabilidades del puesto\n\n\n\n\nBrindar intervención educativa y apoyo a niños con necesidades educativas especiales.\nImplementar estrategias de inclusión escolar y adaptaciones curriculares.\nColaborar con el equipo docente y familia en el desarrollo del plan de intervención individualizado.\n\n\n\n\n\n\n\n\n\n\n\n\n\nÚnete a nuestro equipo en Neuro Activa y sé parte de un proyecto que transforma vidas a través de la educación inclusiva. ¡Aplica ahora y haz la diferencia!"
   },
   {
     "nombreVacante": "Psicología clínica",
@@ -78,6 +78,26 @@
       "Espacio de trabajo": "Presencial"
     },
     "descripcion": "REQUISITOS:\n\nNivel de estudios: Licenciatura (concluida o últimos semestres) Psicología educativa, Pedagogía, Educación especial o afines\n\n23 a 32 años\n\nSexo indistinto\n\nEstado civil indistinto\n\n\n\n\nEXPERIENCIA:\n\nDeseable con niños con autismo, trastornos del neurodesarrollo y/o alguna discapacidad\n\n\n\n\nHABILIDADES Y COMPETENCIAS:\n\nProactiva, comunicación asertiva, responsable, puntual.\n\nEmpatía y sensibilidad emocional, paciencia, tolerancia a la frustración, vocación infantil, compromiso y responsabilidad.\n\n\n\n\nHORARIO DE TRABAJO:\n\nDe lunes a viernes\n\n\n\n\nInteresados enviar cv a la dirección de contacto."
+  },
+  {
+    "nombreVacante": "Psicóloga",
+    "empresa": "Neuro Activa",
+    "ubicacion": "CDMX",
+    "sueldo": "$8,364 - $8,500 Mensual",
+    "verificada": false,
+    "sobreElEmpleo": {
+      "Categoría": "Educación",
+      "Subcategoría": "Psicopedagogía",
+      "Educación mínima requerida": "Universitario titulado",
+      "Categoria": "Educación",
+      "Subcategoria": "Psicopedagogía"
+    },
+    "detalles": {
+      "Contratación": "Permanente",
+      "Horario": "Tiempo completo",
+      "Espacio de trabajo": "Híbrido"
+    },
+    "descripcion": "Acerca de la empresa\n\n\n\n\nNeuro Activa es una empresa líder en el campo de la educación y la psicopedagogía, comprometida con el desarrollo integral de cada individuo. Trabajar con nosotros significa formar parte de un equipo dedicado a brindar soluciones innovadoras y personalizadas a las necesidades educativas especiales. - Ubicación: Ciudad de México.\n\n\n\n\nRequisitos del puesto\n\n\n\n\nLicenciatura en Psicología, Educación Especial, Pedagogía, Psicopedagogía o afines.\nDiplomado o curso en intervención educativa, inclusión escolar o TEA/TDAH. (Deseable)\nExperiencia mínima de 6 meses con niños con necesidades educativas especiales (NEE), Trastorno del Espectro Autista (TEA), TDAH u otras condiciones del neurodesarrollo.\nConocimientos básicos de adaptaciones curriculares y manejo de conductas.\nHabilidades en regulación emocional, contención y acompañamiento respetuoso.\nCapacidad para implementar estrategias sensoriales, estructuración del entorno y apoyos visuales.\nBuen manejo de la comunicación con familia y equipo docente.\n\n\n\n\n\n\n\nResponsabilidades del puesto\n\n\n\n\nBrindar intervención educativa y apoyo a niños con necesidades educativas especiales.\nImplementar estrategias de inclusión escolar y adaptaciones curriculares.\nColaborar con el equipo docente y familia en el desarrollo del plan de intervención individualizado.\n\n\n\n\n\n\n\n\n\n\n\n\n\nÚnete a nuestro equipo en Neuro Activa y sé parte de un proyecto que transforma vidas a través de la educación inclusiva. ¡Aplica ahora y haz la diferencia!"
   },
   {
     "nombreVacante": "Maestra",
