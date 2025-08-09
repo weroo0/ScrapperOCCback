@@ -1,5 +1,4 @@
 import puppeteer from 'puppeteer';
-import chromium from 'chrome-aws-lambda';
 import readline from 'readline';
 import fs from 'fs';
 import { Parser as Json2csvParser } from 'json2csv';
