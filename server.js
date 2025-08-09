@@ -1,12 +1,20 @@
 import express from 'express';
 import cors from 'cors';
-
+import { exec } from 'child_process';
 
 
 import { scrapeOCC } from './scrapperFunction.js'; 
 
 const app = express();
 const PORT = process.env.PORT || 3000;
+
+exec('which chromium-browser || which chromium || which google-chrome', (error, stdout, stderr) => {
+  if (error) {
+    console.log('No Chromium executable found');
+  } else {
+    console.log('Chromium executable path found:', stdout.trim());
+  }
+});
 
 // Permitir peticiones desde cualquier origen (puedes limitarlo a tu dominio de frontend)
 app.use(cors());
