@@ -10,10 +10,24 @@ import PDFDocument from 'pdfkit';
 const OCC_URL = 'https://www.occ.com.mx/';
 
 export async function scrapeOCC(searchTerm) {
-  const browser = await puppeteer.launch({ headless: true, args: ['--no-sandbox', '--disable-setuid-sandbox'],});
+  const browser = await puppeteer.launch({headless: 'new',
+    args: [
+      '--no-sandbox',
+      '--disable-setuid-sandbox',
+      '--disable-blink-features=AutomationControlled'
+    ]});
   
-  console.log('Chromium ejecutable:', executablePath);
+  
   const page = await browser.newPage();
+  await page.setUserAgent(
+    'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36'
+  );
+  await page.evaluateOnNewDocument(() => {
+    Object.defineProperty(navigator, 'webdriver', { get: () => false });
+    window.navigator.chrome = { runtime: {} };
+    Object.defineProperty(navigator, 'languages', { get: () => ['es-ES', 'es'] });
+    Object.defineProperty(navigator, 'plugins', { get: () => [1, 2, 3, 4, 5] });
+  });
   await page.setViewport({ width: 1400, height: 900 });
   await page.goto(OCC_URL, { waitUntil: 'domcontentloaded' });
   await page.waitForSelector('#prof-cat-search-input-desktop', { timeout: 15000 });
