@@ -1,4 +1,5 @@
-import puppeteer from 'puppeteer';
+import puppeteer from 'puppeteer-core';
+import chromium from 'chrome-aws-lambda';
 import readline from 'readline';
 import fs from 'fs';
 import { Parser as Json2csvParser } from 'json2csv';
@@ -10,7 +11,7 @@ import PDFDocument from 'pdfkit';
 const OCC_URL = 'https://www.occ.com.mx/';
 
 export async function scrapeOCC(searchTerm) {
-  const browser = await puppeteer.launch({ headless: process.env.NODE_ENV === "production", args: ['--no-sandbox','--disable-setuid-sandbox'] });
+  const browser = await puppeteer.launch({ args: chromium.args, executablePath: await chromium.executablePath, headless: true, defaultViewport: chromium.defaultViewport, ignoreHTTPSErrors: true,});
   const executablePath = browser.process().spawnfile;
   console.log('Chromium ejecutable:', executablePath);
   const page = await browser.newPage();
