@@ -10,7 +10,7 @@ import PDFDocument from 'pdfkit';
 const OCC_URL = 'https://www.occ.com.mx/';
 
 export async function scrapeOCC(searchTerm) {
-  const browser = await puppeteer.launch({ headless: false, args: ['--start-maximized'] });
+  const browser = await puppeteer.launch({ headless: false, args: ['--no-sandbox','--disable-setuid-sandbox','--start-maximized'] });
   const page = await browser.newPage();
   await page.setViewport({ width: 1400, height: 900 });
   await page.goto(OCC_URL, { waitUntil: 'domcontentloaded' });
