@@ -11,6 +11,8 @@ const OCC_URL = 'https://www.occ.com.mx/';
 
 export async function scrapeOCC(searchTerm) {
   const browser = await puppeteer.launch({ headless: process.env.NODE_ENV === "production", args: ['--no-sandbox','--disable-setuid-sandbox'] });
+  const executablePath = browser.process().spawnfile;
+  console.log('Chromium ejecutable:', executablePath);
   const page = await browser.newPage();
   await page.setViewport({ width: 1400, height: 900 });
   await page.goto(OCC_URL, { waitUntil: 'domcontentloaded' });
